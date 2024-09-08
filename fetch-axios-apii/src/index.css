@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.inputErro {
+    border: 1px solid red;
+    outline: none;
+    border-radius: 8px;
+    padding-inline: 12px;
+    height: 36px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.revmoeError {
+    border: 1px solid rgb(215, 215, 230);
+    outline: none;
+    border-radius: 8px;
+    padding-inline: 12px;
+    height: 36px;
+}
+
+.button_disable{
+    pointer-events: none;
+    background-color: gray;
+}
