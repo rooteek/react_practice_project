@@ -10,6 +10,7 @@ function FormField() {
         language: [],
         date: ""
     })
+    const [error,setError]=useState(false)
     function inputHandler(e) {
         setForm({ ...form, [e.target.id]: e.target.value })
     }
@@ -94,5 +95,4 @@ function FormField() {
         </div>
     )
 }
-
 export default FormField
